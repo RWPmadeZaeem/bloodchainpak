@@ -50,8 +50,8 @@ function Navbar() {
   ]
 
   return (
-    <div>
-      <nav className="flex bg-white w-full sticky top-0 z-[20] justify-between items-center px-4 sm:px-8 lg:px-20 py-4 border-b border-gray-200 shadow-sm">
+    <div className="sticky top-0 z-[20] bg-white">
+      <nav className="flex bg-white w-full justify-between items-center px-4 sm:px-8 lg:px-20 py-4 border-b border-gray-200 shadow-sm">
         <div>
           <Link href="/" className="hover:opacity-80 transition-opacity">
             <h2 className="text-xl font-semibold text-gray-900">Blood Chain</h2>
